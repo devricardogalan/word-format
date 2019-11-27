@@ -2,7 +2,7 @@
     <h2>Word Formatting</h2>
 </div>
 
-<div *ngFor="let example of words; index as i">
+<div class="words" *ngFor="let example of words; index as i">
     <p id={{i}}  (click)="openModal($event)">{{example.word}}</p>
 </div>
 
